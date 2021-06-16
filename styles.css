@@ -8,5 +8,12 @@ h1 {
    text-align: center;
   color: #7FFFD4;
      font-family:  "Courier New", Monospace;
+ 
+ font-size:10vw;
+ 
+ background:#1F6097;
+
+ text-shadow: 0 0 10px white;
+
 }
   
