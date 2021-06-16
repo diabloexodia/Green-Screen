@@ -10,10 +10,8 @@ h1 {
      font-family:  "Courier New", Monospace;
  
  font-size:10vw;
- 
- 
-
- text-shadow: 0 0 10px white;
+ background:#F0FFFF;
+ text-shadow: 0 0 10px #DC143C;
 
 }
   
