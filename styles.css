@@ -1,6 +1,12 @@
 body {
-  text-align: center;
+ 
    background-image: url("https://github.com/diabloexodia/Certificates/raw/main/purple-background-with-neon-frame_52683-34124.jpg");
-   font-family:  "Courier New", Monospace;
+
 
 }
+h1{
+   text-align: center;
+  color: aquamarine
+     font-family:  "Courier New", Monospace;
+}
+  
