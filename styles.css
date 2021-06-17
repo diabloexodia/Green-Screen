@@ -20,15 +20,24 @@ h1 {
 .fa {
   padding: 20px;
   font-size: 30px;
-  width: 50px;
-  text-align: right;
+  width: 30px;
+  text-align: center;
   text-decoration: none;
+  border-radius: 50%;
 }
  /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 } 
-.fa-twitter {
-  background: #55ACEE;
+.fa-instagram {
+  background: #125688;
+  color: #F8F8FF;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: #F8F8FF;
+}
+.fa-pinterest {
+  background: #cb2027;
   color: #F8F8FF;
 }
