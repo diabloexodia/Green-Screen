@@ -23,6 +23,7 @@ h1 {
   width: 50px;
   text-align: center;
   text-decoration: none;
+  align: right;
   border-radius: 35%;
 }
  /* Add a hover effect if you want */
@@ -32,15 +33,15 @@ h1 {
 .fa-instagram {
   background: #125688;
   color: #F8F8FF;
- align: right;
+
 }
 .fa-youtube {
   background: #bb0000;
   color: #F8F8FF;
- align: right;
+ 
 }
 .fa-pinterest {
   background: #cb2027;
   color: #F8F8FF;
- align: right;
+ 
 }
