@@ -23,6 +23,7 @@ h1 {
   width: 30px;
   text-align: center;
   text-decoration: none;
+transition: width .5s;
 
  
   border-radius: 60%;
@@ -30,11 +31,13 @@ h1 {
  /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.5;
+ width : 100px
 
 } 
 .fa-instagram {
   background: #125688;
   color: #F8F8FF;
+ 
 
 }
 .fa-youtube {
