@@ -31,8 +31,8 @@ transition: width .5s,height .5s;
  /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.5;
- width : 6px;
-  height : 6px;
+ width : 31px;
+  height : 31px;
 
 } 
 .fa-instagram {
