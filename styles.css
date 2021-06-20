@@ -36,7 +36,7 @@ h1 {
   transition: 0.3s;
   width: 150px;
   float: right;
-  background: rgba(255,255,255,1);
+  background:#F8F8FF;
   border-radius:25px;
 }
 
