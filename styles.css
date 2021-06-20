@@ -32,7 +32,7 @@ h1 {
  background-color:#000000;
 }
 .card { text-align:right;
-  box-shadow: 0 4px 8px 0 #9400D3;
+  box-shadow:  #9400D3;
   transition: 0.3s;
   width: 20%;
   float: right;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 #9400D3;
+  box-shadow:  #9400D3;
 }
 
 .container {
