@@ -36,6 +36,8 @@ h1 {
   transition: 0.3s;
   width: 150px;
   float: right;
+  background: rgb(255,255,255);
+  border-radius:25px;
 }
 
 .card:hover {
