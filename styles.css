@@ -31,12 +31,14 @@ h1 {
 .pngbg{
  background-color:#000000;
 }
-.card { text-align:left;
+.card { 
+ text-align:left;
   box-shadow:  #9400D3;
   transition: 0.3s;
   width: 20%;
   float: right;
-  background:#9400D3;
+  background:#9400D3,opacity=0.2;
+ 
   border-radius:25px;
 }
 
