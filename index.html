@@ -1,65 +1,28 @@
+<html>
+  <body>
+    <script    src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+    </script>
+    <center><h1> GreenScreen </h1></center>  
+<canvas id = "fgcan">
+</canvas>
+<canvas id = "bgcan">
+</canvas>
 
-<html lang="en" style="width:100%; height:100%;">
-<head>
-  <link rel="stylesheet" href="styles.css" />
- 
-  <link rel="icon" href="medal.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  
-  
+<p>
+Foreground: <input type="file" multiple="false" accept="image/*" id="fgfile" onchange="loadForegroundImage()" >
+</p>
 
-    <div class="w3-dropdown-click" align="right">
-    <button onclick="myFunction()" class="w3-button w3-red" >Social Media</button>
-       <div id="Demo" class="w3-dropdown-content w3-bar-block w3-card-4 w3-animate-zoom">
-<pngbg>
-  <a href="https://www.instagram.com/dramaking.44/" class="w3-bar-item w3-button" style="background-color:black" ><center><img src="instagram.png"></center></a>
-<a href="https://www.youtube.com/channel/UCXQwOvH9nNmNhtUi3C8F1lQ" class="w3-bar-item w3-button" style="background-color:black"><center><img src="youtube.png"></center></a>
-  <a href="https://in.pinterest.com/dhaprsd/_saved/" class="w3-bar-item w3-button" style="background-color:black"  ><center><img src="pinterest.png"></center></a>
- </pngbg>
-         
-      <script>
-function myFunction() {
-  var x = document.getElementById("Demo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
-       </div>
-  </div>
-</div>  
-  <title>ACCOMPLISHMENTS</title>
-</head>
-<body>
-  <div><h1><em> CERTIFICATIONS</em></h1></div>
-   
-  <class>
-<iframe src="ilovepdf_merged (2).pdf#toolbar=0" width="50%" height="800px" style="border-radius: 25px; border: 5px solid #FF00FF; padding: 20px; width: 50%; height: 480px;">
-    </iframe>
-    </class>
-  
-     <div class="card">
-  <img src="avatar.png" alt="Avatar" style="width:100%">
-  <div class="container">
-    <h4><b><center>Profile</b></h4> 
-      </center>
-    <center>
-    Hi , my name is Dhyan . I am a student at VIT-AP university pursuing my B.Tech degree in Computer Science Engineering . </center>
-  </div>
-</div>
-  
+<p>
+Background: <input type="file" multiple="false" accept="image/*" id="bgfile" onchange="loadBackgroundImage()" >
+</p>
 
-
-
-
-  
+<p>
+<input type="button" value="Create Composite" onclick="doGreenScreen()" >
+<input type="button" value="Clear Canvases" onclick="clearCanvas()" >
+</p>
+<br>
+<br>
   </body>
-
-   
 </html>
-
-
+           
+  
