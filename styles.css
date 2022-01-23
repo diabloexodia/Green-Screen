@@ -1,52 +1,14 @@
 body {
- 
-   background-image: url("https://github.com/diabloexodia/Certificates/raw/main/bg.jpg");
-
-
-}
-h1 {
-   text-align: center;
-  color: #8A2BE2;
-     font-family:  "Times",Serif;
- 
- font-size:10vw;
- background-color:#8A2BE2,opacity=0.5;
- 
-
-}
-.class{
- text-align:center;
-}
-.fa {
-  padding: 10px;
-  font-size: 50px;
-  text-align: center;
-  text-decoration: none;
-
-}
- /* Add a hover effect if you want */
-.fa:hover {
-  opacity: 0.5;
-} 
-.pngbg{
- background-color:#000000;
-}
-.card { 
- 
-  box-shadow:  #9400D3;
-  transition: 0.3s;
-  width: 20%;
-  float: right;
-  background:#808080;
- 
-  border-radius:25px;
+  background-color: wheat;
+  font-family: Verdana;
+  margin: 40px;
 }
 
-.card:hover {
-  box-shadow:  #9400D3;
+canvas {
+  border: 1px solid #c3c3c3;
+  height: 200px;
 }
 
-.container {
-  padding: 2px 16px;
+input {
+  font-size: 12pt;
 }
-
